@@ -1,0 +1,10 @@
+# Lab cluster (AKS): one-line JSON logs in Elastic Common Schema for log aggregation.
+# Note: this profile does NOT enable failure simulation; that always requires
+# LAB_FAILURE_ENABLED=true to be set explicitly.
+logging:
+  structured:
+    format:
+      console: ecs
+    ecs:
+      service:
+        environment: lab

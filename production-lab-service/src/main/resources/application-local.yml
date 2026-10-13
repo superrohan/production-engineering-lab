@@ -1,0 +1,5 @@
+# Local development on a workstation: human-readable logs, full health details.
+management:
+  endpoint:
+    health:
+      show-details: always
